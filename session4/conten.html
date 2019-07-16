@@ -1,0 +1,48 @@
+#content {
+	border: 1px solid black;
+	height: 200px;
+}
+#content-1, #content-2, #content-3 {
+	width: 33%;
+	border: 1px solid black;
+	float: left;
+	height: 200px;
+	line-height: 200px;
+	text-align: center;
+}
+#content-3 {
+	border-right: none;
+}
+
+@media  screen and (max-width: 768px) {
+	body {
+		background-color: red;
+	}
+	#content-1, #content-2 {
+		width: 49%;
+	}
+	#content-2 {
+		border-right: none;
+	}
+	#content-3 {
+		width: 100%;
+		border-right: 1px solid black;
+	}
+}
+
+@media  screen and (max-width: 600px) {
+	body {
+		background-color: green;
+	}
+	#content-1, #content-2 {
+		width: 100%;
+	}
+	#content-2 {
+		border-right: 1px solid black;
+	}
+}
+@media  screen and (max-width: 480px) {
+	body {
+		background-color: blue;
+	}
+}
