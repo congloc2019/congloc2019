@@ -1,0 +1,50 @@
+*{padding: 0;
+margin: 0;
+}
+@font-face {
+	font-family:dirtyoldtown.ttf;
+	src : url(dirtyoldtown.ttf);
+}
+body {background-color: #ffcccc}
+.demo{
+	color: red;
+	font-family:dirtyoldtown.ttf;
+
+}
+.demo1{
+	font-size: 50px;
+	color: #EAB551;
+	font-family:dirtyoldtown.ttf;
+	padding-top: 5px;
+	padding bottom: 5px;
+	text-indent: 20px;
+	text-align: justify;
+	text-shadow: 5px 4px 3px blue;
+	text-decoration: overline;
+	text-decoration: underline;
+
+}
+.demo2{padding-top: 5px;
+	padding bottom: 5px;
+	text-indent: 20px;
+	text-align: justify;
+	
+	text-decoration: overline;
+	text-decoration: underline;
+
+}
+.content{
+	padding-top: 5px;
+	padding bottom: 5px;
+	text-indent: 20px;
+	text-align: justify;
+	text-transform: uppercase;
+	text-decoration: underline;
+	text-decoration: overline;
+}
+.demo3{padding-top: 5px;
+	padding bottom: 5px;
+	text-indent: 20px;
+	text-align: justify;
+	text-transform: lowercase;
+	text-decoration: line-through;
