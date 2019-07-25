@@ -1,0 +1,33 @@
+
+table {
+	border: 1px solid black;
+	width: 600px;
+	height: 200px;
+	border-collapse: collapse;
+	color: white;
+	background: blue;
+}
+td, th {
+	border: 1px solid yellow;
+}
+a:link, a:visited
+{
+color:white;
+text-decoration:none;
+}
+ 
+a:hover
+{
+color:red;
+font-weight:bold;
+text-shadow: 5px 4px 3px;
+}
+ 
+a:active
+{
+background:yellow;
+}
+#c{
+	font color: pink;
+	
+	}
