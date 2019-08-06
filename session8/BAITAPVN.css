@@ -1,0 +1,26 @@
+#a{  margin: auto;
+    margin-top: 40px;
+    width: 700px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    padding: 30px;
+    border-bottom: 3px solid black;
+    border-right: 2px solid black;
+    background: white;
+   	height: 100px;
+
+
+}
+#aa{
+	height: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
+    border: 1px solid black;
+	width: 800px;
+	border-collapse: collapse;
+	background-color: blue;
+
+}
+}

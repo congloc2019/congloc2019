@@ -1,0 +1,81 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  color: #333;
+}
+
+#menu ul {
+  background: #1F568B;
+  list-style-type: none;
+  text-align: center;
+}
+#menu li {
+  color: #f1f1f1;
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -5px;
+}
+#menu a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+#menu a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+
+.sub-menu li {
+  display: none;
+}
+#menu li {
+ position: relative;
+}
+.sub-menu {
+ display: none;
+ position: absolute;
+}
+#menu li:hover .sub-menu {
+ display: block;
+}
+.sub-menu li {
+ margin-left: 0 !important;
+}
+#top{
+	font-size: 40px;
+	color: green;
+}
+ul {
+    list-style-image: url('ronaldo.png');
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+.icon-bar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+ 
+.icon-bar a {
+    float: left;
+    width: 15%;
+    text-align: center;
+    padding: 24px 0;
+    
+    color: white;
+    font-size: 36px;
+}
+ 
+.icon-bar a:hover {
+    background-color: #2EFEC8;
+}
+ 

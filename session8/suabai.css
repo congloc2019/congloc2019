@@ -1,0 +1,107 @@
+body {
+    background-image: linear-gradient(to right, #ada, #333311);
+}
+
+.a {
+    margin: auto;
+    margin-top: 40px;
+    width:800px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    padding: 50px;
+    border-bottom: 3px solid pink;
+    border-right: 2px solid black;
+    background: #A9F5F2;
+}
+
+.a .header {
+    margin: 10px;
+    height: 100px;
+}
+
+#menu {
+    height: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+}
+
+#menu ul {
+    margin: 10px;
+}
+
+#menu ul li {
+    list-style-type: none;
+    float: left;
+    margin-right: 30px;
+    padding-right: 60px;
+    border-right: 2px solid blue;
+
+}
+
+.a .content {
+    margin: 10px;
+    width: 500px;
+}
+
+.a .header img {
+    float: left;
+    width: 100px;
+    margin: 10px;
+}
+
+.a .header .logo {
+    float: left;
+    width: 330px;
+    text-align: center;
+    padding: 20px;
+}
+
+.a .header .b {
+    color: yellow;
+    text-shadow: 5px 4px 2px black;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.a .header .c {
+    color: green;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.a .menu ul {
+    text-indent: 15px;
+}
+
+.a .menu a {
+    color: green;
+    font-size: 15px;
+}
+
+.a .content {
+    width: 400px;
+    padding-right: 15px;
+    border-right: 1px solid blue;
+}
+
+.a .content .e {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.a .content .f2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.a .content .f3 {
+    text-indent: 20px;
+    text-align: justify;
+}
+
+.a .footer {
+    float: right;
+}
