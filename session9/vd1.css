@@ -1,0 +1,20 @@
+#form{
+	border: 1px solid black;
+	background: yellow;
+	width:500px;
+	height: 200px;
+	float:left;
+
+}
+#regisster{
+	border: 1px solid black;
+	
+	width: 500px;
+	height: 800px;
+	float:  :right;
+}
+#a{
+	border: 1px solid black;
+	float:  :right;
+	width: 49%;
+}
