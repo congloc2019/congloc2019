@@ -1,0 +1,112 @@
+#header{
+	width: 30%;
+	float: left;
+	boder:1px;
+}
+#banner{
+	width: 69%;
+	float:left;
+}
+a:hover
+{
+color:green;
+font-weight:bold;
+
+}
+#menu ul {
+  background: none;
+  list-style-type: none;
+  text-align: center;
+}
+#menu li {
+  color: #f1f1f1;
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -5px;
+}
+#menu a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+#menu a:hover {
+  background: #F1F1F1;
+  color: #00FF00;
+}
+
+#left{
+	float:left;
+	border: 1px
+	width :40%;
+}
+#right{
+	float: left;
+	width:59%;
+	}
+.col-wrap {
+    display: table; 
+    width: 100%; 
+}
+
+.items {
+  column-width: 300px;
+  column-count: 3;
+  column-gap: 10px;
+  border-spacing: 50px;
+  column-gap: 5px;
+
+}
+.item {
+  break-inside: avoid;
+}
+.content {
+  background: white;
+  padding: 15px;
+  margin-top: 10px;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  border: 3px solid none;
+  width: 60%;
+  padding: 10px 30px 10px 10px;
+  margin: 0 auto ;
+}
+.item:first-child .content {
+  margin-top: 0;
+}
+#footer{
+  background-color: #D8D8D8;
+}
+h3{
+  color: green;
+}
+.xem{
+  width: 120px;
+  height: 30px;
+  border: 2px solid gray;
+  margin-bottom: 30px;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom, white, white);
+  color: green;
+  line-height:30px;
+  text-align:center;
+  margin: 0 auto ;
+}
+section{
+  background-image: url('ab.jpg');
+  background-repeat: no-repeat;
+  color: red;
+  width: 100%;
+  height: 50px;
+  background-position: bottom left, top-right ;
+}
+.se{
+  background-color: green;
+  width: 50px;
+  height: 40px;
+  color: white;
+  font-size: 20px; 
+  background-position: bottom left, top-right ; 
+  line-height: 40px;
+}

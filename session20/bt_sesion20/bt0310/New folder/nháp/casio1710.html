@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>casio</title>
+	<link rel="stylesheet"  href="casio.css">
+	<meta charset="utf-8">
+</head>
+<body>
+<div class="wrapper">
+		<input class="show" id="ketqua" type="text"/>
+
+        <div>
+        <input type="button" value="7" class="nut num" onclick="ketqua.value+=this.value"/>
+        <input type="button" value="8" class="nut num" onclick="ketqua.value+=this.value"/>
+        <input type="button" value="9" class="nut num" onclick="ketqua.value+=this.value"/>
+        <input type="button" class="nut operator" value="/" onclick="chia();"/>
+        <input type="button" class="nut" value="%" onclick="ketqua.value=eval(ketqua.value/100)"/>
+        </div>
+
+        <div>
+        <input type="button" value="4" class="nut num"/>
+        <input type="button" value="5" class="nut num" onclick="ketqua.value+=this.value"/>
+        <input type="button" value="6" class="nut num" onclick="ketqua.value+=this.value"/>
+        <input type="button" class="nut operator" value="*" onclick="ketqua.value+=this.value"/>
+        <input type="button" class="nut" value="1/x" onclick="ketqua.value=eval(1/ketqua.value)"/>
+        </div>
+
+        <div>
+        <input type="button" value="1" class="nut num" onclick="ketqua.value+=this.value"/>
+        <input type="button" value="2" class="nut num" onclick="ketqua.value+=this.value"/>
+        <input type="button" value="3" class="nut num" onclick="ketqua.value+=this.value"/>
+        <input type="button" class="nut operator" value="+" onclick="ketqua.value+=this.value"/>
+        <input type="button" class="nut operator" value="-" onclick="ketqua.value+=this.value"/>
+
+        </div>
+
+       
+</body>
+</html>
