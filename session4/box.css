@@ -1,24 +1,53 @@
 #demo1{
-	height: 300px;
-	width: 200;
-	color: red;
-	border: 5px solid blue;
-	line-height: center;
-	padding: 20px;
-	margin: 30px;
-
+	background-color: red;
+	width: 30%;
+	float: left;
+	border: 1px solid blue;
+	height: 100px;
+	margin: 0 auto;
+	font-size: 30px;	
+	margin-bottom: 20px;
+	border-radius: 20px;
+	background-image: linear-gradient( to bottom, #ada , gray);
+	box-shadow: 5px 8px 3px pink;
+	background: url('ronaldo.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	
 }
 #demo2{
-	height: 200px;
-	width: 100;
-	color: red;
-	border: 5px solid blue;
+	background-color: gray;
+	width: 69%;
+	float: left;
+	border: 1px solid green;
+	height: 100px;
+	margin: 0 auto;
+	font-size: 30px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+	background-image: linear-gradient( to bottom, #ada , blue);
+	box-shadow: 5px 8px 3px pink;
+	background: url('ronaldo.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+
+}
+.demo3{
+	background-color: yellow;
+	border: 1px solid green;
+	height: 100px;
+	width: 69%;
+	float: left;
+	font-size: 30px;
 	
-	padding-top: 20px;
-	padding-left: : 20px;
-	padding-right: 20px;
-	padding-bottom: : 20px;
 
-	margin: 30px;
-
+}
+.demo4{
+	background-color: green;
+	border: 1px solid gray;
+	height: 100px;
+	width: 30%;
+	float: left;
+	font-size: 30px;
+	
 }

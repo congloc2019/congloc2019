@@ -1,0 +1,44 @@
+#header{
+	border: 1px solid red;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	background: yellow;
+
+}
+#content{
+	border: 1px solid red;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	background: white;
+}
+#footer{
+	border: 1px solid red;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background: yellow;
+}
+#left{
+	width: 20%;
+	float: left;
+	border: 1px solid red;
+	background: yellow;
+}
+#content {
+	width: 59%;
+	float: left;
+	background: yellow;
+}
+#right{
+	width: 20%;
+	float: left;
+	border: 1px solid red;
+	background: yellow;
+}
+#a {
+	width: 69%;
+	float: left;
+	background: yellow;
+}

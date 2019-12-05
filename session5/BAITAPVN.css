@@ -1,10 +1,104 @@
-.demo1{font-size: 50px;
-	color: #EAB551;
-	font-family:dirtyoldtown.ttf;
-	padding-top: 5px;
-	padding bottom: 5px;
-	text-indent: 5px;
-	text-align: justify;
-	text-shadow: 5px 4px 3px blue;
+* {
+	margin: 5px;
+	padding: 1;
 }
-	
+#bg {
+	margin:0 auto;
+	width: 900px;
+	border:3px solid black;
+	box-shadow: 1px 1px 4px 3px black;
+}
+img {
+	font-weight: bold;
+	float: left;
+	height: 120px;
+	width: 12%;
+}
+.banner {
+	float: left;
+	height: 100px;
+	width: 78%;
+	padding-top: 15px;
+	text-align: center;
+
+}
+.day {
+	font-size: 29px;
+}
+.cau1 {	
+	text-align: center;
+ 	font-size: 50px;
+	color: #E69B0A;
+	text-shadow: 4px 4px 4px black;
+}
+.cau2 {
+	padding-top: 10px;
+	color: green;
+	font-size: 35px;
+	border-bottom: 1px solid red;
+}
+.content{
+	padding-top: 70px;
+	clear: left;
+}
+a {
+	color: pink;
+}
+.copy {
+	text-align:  right;
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+.info {
+	font-size: 29px;
+}
+#demo1{
+	width:1000px; 
+	height:500px;
+	border: 2px solid red;
+	margin-bottom: 20px;
+	border-radius: 20px;
+	background-image: linear-gradient( to bottom, #ada , yellow);
+	box-shadow: 4px 4px 5px pink;
+	background-color: #fff222;
+
+}
+#e{
+	border-bottom:  1px solid red;
+}
+#page_header nav ul li{
+	list-style: none;
+}
+a{
+	text-decoration:  none;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px;
+	margin: 0 5px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	background-color: #12aa21;
+	font-size: 20px;
+	color: #ffffff;
+	font-family: arial , verdana , sans-serif;
+}
+a:link, a:visited
+{
+color:blue;
+text-decoration:none;
+}
+ 
+a:hover
+{
+color:red;
+font-weight:bold;
+}
+ 
+a:active
+{
+background:yellow;
+}
+.a{
+	color: black;
+}

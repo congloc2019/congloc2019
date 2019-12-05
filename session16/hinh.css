@@ -1,0 +1,26 @@
+#a{
+	border: 2px; sold : red;
+	width: 20px;
+	height: 50px;
+	line-height :50px;
+	background-color: gray;
+}
+#b{
+	border: 2px; sold : yellow;
+	width: 20px;
+	height: 50px;
+	line-height :50px;
+}
+#c{
+	border: red;
+	width: 20px;
+	height: 50px;
+	line-height :50px;
+}
+#d{
+	border: red;
+	width: 20px;
+	height: 50px;
+	line-height :50px;
+
+}

@@ -71,7 +71,7 @@ switch (myMoth)
 	document.write("k phai");
 	break;
 }
-*/
+
 var i;
 for( i=10; i>=0;i--)
 {
@@ -105,35 +105,32 @@ for (var i = 0; i <= 100; i++){
         document.write(i + ' -- ');
     }
 }
+f
 
-
- function tinh_tong(n)
-{
-    var tong = 0;
-    var index = 0;
- 
-    while (index <= n)
-    {
-        // Nếu số chẵn thì cộng vào
-        if (index % 200 == 0){
-            tong += index;
-        }
- 
-        // tăng biến đếm
-        index++;
+for (var i = 0; i <= 100; i++){
+    if (i % 5 == 0){
+        document.write(i + ' - ');
     }
-    return tong;
 }
- 
-var n = parseInt(prompt("nhap so can kiem"));
-document.write("tong so chia het cho 200 " + n + " là: " + tinh_tong(n));
+for (var i = 0; i <= 100; i++){
+    if (i % 3 == 0){
+        document.write(i + ' $ ');
+    }
+}
+for (var i = 0; i <= 100; i++){
+    if (i % 15 == 0){
+        document.write(i + ' chia het ');
+    }
+}
+for (var i = 0; i <= 100; i++){
+    if (i % 15 == 0){
+        document.write(i + ' chia het ');
+    }
+}
+*/
 
 
-
-
-
-
-
-
-
-
+for (var i = 0; i <= 100; i++){
+    if (i % 15 == 0){
+        document.write(i + ' chia het ');
+    }

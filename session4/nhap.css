@@ -6,7 +6,7 @@
 	line-height: center;
 	padding: 10px;
 	margin: 10px;
-
+	background: red;
 }
 #demo2{
 	height: 50px;
@@ -16,7 +16,7 @@
 	line-height: center;
 	padding: 10px;
 	margin: 10px;
-
+	background: pink;
 }
 #demo3
 {
@@ -38,5 +38,6 @@
 	line-height: center;
 	padding: 10px;
 	margin: 10px;
+	background: yellow;
 
 }
