@@ -1,0 +1,199 @@
+
+@media screen and (max-width: 600px) {
+    .none {
+        display: none !important ;
+    }
+}
+
+.content .col-md-2 ul li a {
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.content .col-md-2 ul li:hover {
+    background-color: #adadad;
+}
+
+.button1 {
+    background-color: #616161;
+    color: #fff;
+}
+
+.button1:hover {
+    background-color: #c9c6c6;
+    color: #000;
+}
+
+.button2:hover {
+    box-shadow: 2px 2px 2px 2px #c9c6c6;
+}
+
+.button3:hover {
+    box-shadow: 2px 2px 2px 2px rgb(70, 69, 69);
+}
+
+.card {
+    box-shadow: 5px 10px 18px #888888;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+.body {
+    background-color: #fff;
+    border-left: 5px solid #4CAF50;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.button {
+    margin-left: 80px;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.template {
+    color: #000;
+    background-color: #f1f1f1;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    line-height: 1.5;
+}
+
+.section {
+    line-height: 1.5;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.certificate {
+    background-color: #000;
+}
+
+.certificate img {
+    margin: auto;
+    border-style: none;
+    display: block;
+    max-width: 100%;
+}
+
+.certificate button {
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    background-color: #4CAF50;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    translate: translate(-50%, -50%);
+    line-height: 1.5;
+}
+
+.cert {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    padding: 15px;
+    width: 100%;
+}
+
+.footer {
+    color: #fff;
+    background-color: #616161;
+    padding-top: 50px;
+}
+
+.footer button {
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    background-color: #f1f1f1;
+    color: #000;
+    margin: 5px;
+}
+
+.foottop a {
+    color: inherit;
+    background-color: transparent;
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-family: Segoe UI, Arial, sans-serif;
+    line-height: 51px;
+    height: 51px;
+}
+
+.footcontend {
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-top: 30px;
+}
+
+.footcontend a {
+    color: #fff;
+}
+
+.like {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    transform: translate(0, 0);
+    font-size: 36px;
+    margin: 30px;
+}
+
+.li-style{
+    letter-spacing: 3px; 
+    font-size: 17px;
+    font-family: Segoe UI, Arial, sans-serif;
+}
+
+.world{
+    margin-top: 15px;
+    margin-left: 900px;
+    font-family: Segoe UI, Arial, sans-serif;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+.w3s{
+    color: #555555; 
+    font-size: 40px;
+    font-family: Blippo, fantasy ;
+}
+.com{
+    color: #4CAF50; 
+    font-size: 40px; 
+    font-family: Blippo, fantasy ;
+}
+.navbar-default .navbar-nav li a{
+    color: rgb(39, 37, 37) !important;
+    background:whitesmoke;
+}
+.navbar .container-fluid{
+    background-color: #4CAF50 ;    
+    padding: 0;
+}
+
+.navbar-right {
+    font-size: 16px;
+}
+.dropdown-toggle {
+    font-size: 18px;
+}
+.nav .navbar-nav{
+    padding: 5px; 
+   
+}
+.dropdown-toggle{
+    background:#fff; 
+}
+.no-margin{
+    margin: 0;
+    background: whitesmoke;
+}
+
+li a{
+    line-height: normal !important;
+}
+.navbar-nav{
+    margin: -0.5px;
+}
